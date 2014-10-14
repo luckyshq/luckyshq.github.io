@@ -12,12 +12,12 @@ if ($(window).width() <= 1280) {
 
 // Variables
     tag1       = $('.pl__all'),
-    tag2       = $('.pl__android'),
-    tag3       = $('.pl__editor'),
-    tag4       = $('.pl__algorithm'),
-    tag5       = $('.pl__network'),
-    tag6       = $('.pl__life'),
-    tag7       = $('.pl__about');
+    tag2       = $('.android'),
+    tag3       = $('.editor'),
+    tag4       = $('.algorithm'),
+    tag5       = $('.network'),
+    tag6       = $('.life'),
+    tag7       = $('.about');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
