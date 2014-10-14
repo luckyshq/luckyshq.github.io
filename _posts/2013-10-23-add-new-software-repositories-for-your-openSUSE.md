@@ -19,9 +19,7 @@ Kickoff menu -> Computer tab -> YaST -> Software -> Software Repositories
 ### But do pay attention to:
 
 >* Non-offical Software Repositories may contain some unstable software package.
-
 >* Different Software Repositories may not compatible with each other.
-
 >* A non-offical Software Repositories may not be permanently stable and reliable.
 
 #### Too much Software Repositories will slow down the speed of software package management.
@@ -39,9 +37,7 @@ Kickoff menu -> Computer tab -> YaST -> software -> Software Repositories -> Cli
 ###In managing your Software Repositories, your have to keep these three offical Software Repositories:
 
 >* Main Repository(OSS)
-
 >* Main Repository(NON-OSS)
-
 >* Main Update Repository
 
 #### For Chinese Users, offical Software Repositories may be a little slow. So you can choose your own Chinese mirrow Software Repositories, just like [http://mirrow.163.com/openSUSE/](http://mirrow.163.com/openSUSE/) or [http://mirrors.sohu.com/opensuse/](http://mirrors.sohu.com/opensuse/) and so on.
@@ -56,24 +52,17 @@ Kickoff menu -> Computer tab -> YaST -> software -> Software Repositories -> Cli
 #### then input following things in the input boxes:
 
 
-```
-
-title: 163/Update
-
-URL: [http://mirrors.163.com/openSUSE/update/12.3/](http://mirrors.163.com/openSUSE/update/12.3/)
 
 
+>* title: 163/Update
+>* URL: [http://mirrors.163.com/openSUSE/update/12.3/](http://mirrors.163.com/openSUSE/update/12.3/)
 
-title: 163/Oss
+>* title: 163/Oss
+>* URL: [http://mirrors.163.com/openSUSE/distribution/12.3/repo/oss/](http://mirrors.163.com/openSUSE/distribution/12.3/repo/oss/)
 
-URL: [http://mirrors.163.com/openSUSE/distribution/12.3/repo/oss/](http://mirrors.163.com/openSUSE/distribution/12.3/repo/oss/)
+>* title: 163/NON-Oss
+>* URL: [http://mirrors.163.com/openSUSE/distribution/12.3/repo/non-oss/](http://mirrors.163.com/openSUSE/distribution/12.3/repo/non-oss/)
 
-
-
-title: 163/NON-Oss
-
-URL: [http://mirrors.163.com/openSUSE/distribution/12.3/repo/non-oss/](http://mirrors.163.com/openSUSE/distribution/12.3/repo/non-oss/)
-```
 
 ### And then, we have finished our work!
 
