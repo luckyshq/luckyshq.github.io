@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>place_your_blog_title_here</title>
+    <title>luckyshq's blog</title>
     <link>luckyshq.github.io</link>
     <atom:link href="luckyshq.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>Computer can change your life for the better.</description>
