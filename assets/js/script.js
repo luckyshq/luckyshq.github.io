@@ -12,11 +12,12 @@ if ($(window).width() <= 1280) {
 
 // Variables
     tag1       = $('.pl__all'),
-    tag2       = $('.place_your_tag_name_here'),
-    tag3       = $('.place_your_tag_name_here'),
-    tag4       = $('.place_your_tag_name_here'),
-    tag5       = $('.place_your_tag_name_here'),
-    tag6       = $('.place_your_tag_name_here');
+    tag2       = $('.pl__android'),
+    tag3       = $('.pl__editor'),
+    tag4       = $('.pl__algorithm'),
+    tag5       = $('.pl__network'),
+    tag6       = $('.pl__life'),
+    tag7       = $('.pl__about');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
@@ -30,7 +31,7 @@ var clickHandler = function(k) {
     window['tag'+k].delay(50).fadeIn(350);
   }
 };
-for (var i = 1; i <= 6; i++) {
+for (var i = 1; i <= 8; i++) {
   $('#js-label' + i).on('click', clickHandler(i));
 }
 
@@ -141,7 +142,7 @@ function afterPjax() {
     if ( !ds_loaded && container.scrollTop() + container.height() > top ) {
       $.ajax({
         type: 'GET',
-        url: 'http://' + disqus_shortname + '.disqus.com/embed.js',
+        url: 'http://' + luckyshq + '.disqus.com/embed.js',
         dataType: 'script',
         cache: true
       });
@@ -150,4 +151,3 @@ function afterPjax() {
   }check();
   container.scroll(check);
 }afterPjax();
-
