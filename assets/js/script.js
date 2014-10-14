@@ -16,8 +16,9 @@ if ($(window).width() <= 1280) {
     tag3       = $('.editor'),
     tag4       = $('.algorithm'),
     tag5       = $('.network'),
-    tag6       = $('.life'),
-    tag7       = $('.about');
+    tag6       = $('.system'),
+    tag7       = $('.life'),
+    tag8       = $('.about');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
@@ -31,7 +32,7 @@ var clickHandler = function(k) {
     window['tag'+k].delay(50).fadeIn(350);
   }
 };
-for (var i = 1; i <= 7; i++) {
+for (var i = 1; i <= 8; i++) {
   $('#js-label' + i).on('click', clickHandler(i));
 }
 
