@@ -41,6 +41,7 @@ categories: editor
 
     注：Linux下Atom的默认安装目录是 /usr/share/atom 而　language包文件都放在　/usr/share/atom/resources/app/node_modules 下。　
     所以修改Snippets文件需要root权限，不过Atom有个bug，我用sudo 打开Atom好像没有获取到root权限，还是不能改写Snippets。后来还是用emacs改的。＝，＝
+    (已查清原因：一个Atom大窗口只对应一种权限，如果用sudo打开的话会默认在之前的Atom里面创建小窗口，而这个小窗口是没有获得root权限的，bug已在github里上报)
 
 如果你想针对语言配置**Snippets**的话就可以直接在每个**language**的包里修改**Snippets**文件。
 
