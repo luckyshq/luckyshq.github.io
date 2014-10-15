@@ -2,7 +2,7 @@
 layout: post
 title:  "Beginning"
 date:   2013-10-23 12:47:11
-categories: life
+categories: about
 ---
 Impressed by most of great hackers (not crackers), I find that starting a blog of our own to share technology knowledge is a excellent way, which is good for both blog owner and blog readers,just like you guys.We can promote each other to learn more about the beautiful Internet world.
 
