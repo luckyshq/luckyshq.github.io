@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Emacs org-mode is the god's Note application"
+title: "Emacs org-mode"
 date:    2014-10-08 11:33
 categories: editor
 ---
