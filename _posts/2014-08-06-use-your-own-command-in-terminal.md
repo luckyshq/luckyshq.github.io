@@ -26,4 +26,4 @@ function c() { cd $1; }
 {% endhighlight %}
 
 
-5. you can only type **"3.."** to **"cd .."** three times, use **cr** to clear your teminal, use **tb** to launch thunderbird, use **c** to replace **cd**
+you can only type **"3.."** to **"cd .."** three times, use **cr** to clear your teminal, use **tb** to launch thunderbird, use **c** to replace **cd**
