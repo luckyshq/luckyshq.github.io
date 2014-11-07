@@ -27,3 +27,5 @@ function c() { cd $1; }
 
 
 you can only type **"3.."** to **"cd .."** three times, use **cr** to clear your teminal, use **tb** to launch thunderbird, use **c** to replace **cd**
+
+My personal command config files are [there](https://github.com/luckyshq/self-shell-funcs).
