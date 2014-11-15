@@ -36,10 +36,11 @@ html, body {
   font: 100 16px/1.5 Avenir, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: none;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 a {
-  color: inherit;
+  color: #208588;
   text-decoration: none;
   -webkit-transition: color .35s;
   -moz-transition: color .35s;
@@ -393,7 +394,8 @@ a {
       margin: 0 auto; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 #post__title {
   margin: 0;
@@ -419,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px; }
 
 strong {
-  font-weight: 600; }
+  font-weight: 1000;}
 
 blockquote {
   margin: 1.5em 0 1.5em 2em;
