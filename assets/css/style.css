@@ -965,7 +965,7 @@ pre > code {
 /* Inline code */
 :not(pre) > code {
   padding: .25em .5em .1em;
-  color: black;
+  color: #d95662;
   font: .85em Consolas, Monaco, 'Andale Mono', monospace;
   background: #fafafa;
   border: 1px solid #e5e8ec;
