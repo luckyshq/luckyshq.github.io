@@ -48,7 +48,7 @@ categories: editor
 ### **Atom**的**Snippets**支持**cson**和**json**两种格式，这里分别给出一个例子：
 
 #### .cson
-{% highlight bash %}
+{% highlight coffeescript %}
 '.source.js':
   'if, else if, else':
     'prefix': 'ieie'
@@ -65,7 +65,7 @@ categories: editor
 
 
 #### .json
-{% highlight bash %}
+{% highlight json %}
     "jekyll yaml": {
       "prefix": "ya",
       "body": "---\nlayout: post\ntitle:  $1\ndate:   $2 $3\ncategories: $4\n---\n$5"
