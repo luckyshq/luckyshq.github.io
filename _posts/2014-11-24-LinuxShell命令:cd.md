@@ -89,4 +89,6 @@ luckyshq@localhost:~/b$
 
 ### -@参数
 
-(这参数看着好诡异,今天不早了,明天再更新=,=)
+原文解释如下:(貌似我系统不支持,用不了-@参数)
+
+On systems that support it, the -@ option presents the extended  attributes  associated  with  a file  as  a directory.  An argument of - is converted to $OLDPWD before the directory change is attempted.  If a non-empty directory  name  from  CDPATH is used, or if - is the first argument, and the directory change is successful, the absolute pathname of the  new  working  directory  is written to the standard output. The return value is  true  if  the  directory  was  successfully changed; false otherwise.
