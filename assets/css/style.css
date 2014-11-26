@@ -39,6 +39,10 @@ html, body {
   overflow: hidden;
 }
 
+li:not(.tags-btn) {
+  margin-bottom: 15px;
+}
+
 a {
   color: #208588;
   text-decoration: none;
@@ -54,7 +58,8 @@ a {
 #sidebar {
   width: 585px;
   height: 100%;
-  float: left; }
+  float: left;
+    }
   @media screen and (min-device-width: 1281px) {
     #sidebar {
       -webkit-transition: margin-left 0.5s cubic-bezier(0.77, 0, 0.175, 1);
