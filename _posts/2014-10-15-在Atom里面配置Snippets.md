@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "在Atom里面配置Snippets"
-date:    2014-10-15 16:01
+date:    2014-12-1 20:22
 categories: editor
 ---
 
@@ -9,7 +9,7 @@ categories: editor
 现在**Atom**公测版也推出了一段时间了，最近心血来潮就想到把它下下来玩一下。
 
 第一印象是这玩意跟**Sublime**差不多的风格，跟**Sublime**不同的是**Atom**这玩意是用**Node.js**做的一个本地应用，
-像**Android Studio**一样支持即时渲染，**Web**前端的猿们又能**get**一大利器了。
+像**Android Studio**一样支持即时渲染，**Web**前端的猿们又能**get**一大利器了,而且由于Web特性,一切设置的修改都是**不需要重启编辑器**的。
 
 比较蛋疼的一点是不能支持自动换行TAT，**markdown**还好，其他的要输入一大段字符的话，
 它就直接全部挤在一行里了。不过相信由于**Atom**的开源特性，早就有解决这个问题的插件，只不过是我还没有去找而已。(这个问题在官方最新的版本里面已经得到了解决.果然效率)
@@ -63,6 +63,9 @@ categories: editor
     """
 {% endhighlight %}
 
+`这里补充一点,之前我好长时间用CSON都没有配成功,后来发现是'.source.js'那一块的问题.
+之前以为那里是引用了什么js文件,后来才发现那个是对应Snippets的作用域.
+所以要在.java文件里生效就得改为'.source.java',以此类推.`
 
 #### .json
 {% highlight json %}
