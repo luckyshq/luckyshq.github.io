@@ -66,6 +66,7 @@ categories: editor
 `这里补充一点,之前我好长时间用CSON都没有配成功,后来发现是'.source.js'那一块的问题.
 之前以为那里是引用了什么js文件,后来才发现那个是对应Snippets的作用域.
 所以要在.java文件里生效就得改为'.source.java',以此类推.`
+`注:.source.后面跟的是跟atom语言包相关的名称,例如markdown文件是.source.gfm. (妈蛋,这地方坑了我好久,又没有一个统一的文档.=,=坑爹)`
 
 #### .json
 {% highlight json %}
