@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "在Atom里面配置Snippets"
-date:    2014-12-1 20:22
+date:    2014-10-15 20:22
 categories: editor
 ---
 
