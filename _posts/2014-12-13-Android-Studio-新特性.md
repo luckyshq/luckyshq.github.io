@@ -5,13 +5,13 @@ date:   2014-12-13 11:14
 categories: android
 ---
 
-本文部分引用自: [Android Developers Blog](http://android-developers.blogspot.com/2014/12/android-studio-10.html)
+本文部分引用自: [*Android Developers Blog](http://android-developers.blogspot.com/2014/12/android-studio-10.html)
 
-11月8日,对我们Android开发者来说算是一个大日子. 因为, 从13年五月Google放出0.1.x版本后, 整整经历了近一年半, Android Studio终于发布1.0版本了! 相对于之前一直在使用的0.8.x版本, 正式版除了增强软件健壮性之外, 还多了许多十分易用的新功能. 
+11月8日,对我们Android开发者来说算是一个大日子. 因为, 从13年五月Google放出0.1.x版本后, 整整经历了近一年半, Android Studio终于发布1.0版本了! 相对于之前一直在使用的0.8.x版本, 正式版除了增强软件健壮性之外, 还多了许多十分易用的新功能.
 
-废话不多说, 让我们来看看1.0里面又有哪些新玩具吧~ >,< 
+废话不多说, 让我们来看看1.0里面又有哪些新玩具吧~ >,<
 
-(这里仅介绍几个关键新特性,想要看Android Studio的full feature, [请点这里](http://developer.android.com/tools/studio/index.html))
+(这里仅介绍几个关键新特性,想要看Android Studio的full feature, [*请点这里](http://developer.android.com/tools/studio/index.html))
 
 ---
 
