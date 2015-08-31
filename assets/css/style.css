@@ -399,9 +399,8 @@ a {
       margin: 0 auto; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-weight: 2000;
   padding-left: 20px;
-  background-color: #e6d6d6;
 }
 
 #post__title {
