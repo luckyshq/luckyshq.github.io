@@ -398,7 +398,13 @@ a {
       max-width: 800px;
       margin: 0 auto; } }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3{
+  font-weight: 2000;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+h4, h5, h6 {
   font-weight: 2000;
   padding-left: 20px;
 }
@@ -418,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 #post__content li > p {
   margin: 0; }
 #post__content a {
-  color: #7d8b99;
+  color: #4b8dcd;
   word-break: break-all; }
   #post__content a:hover {
     text-decoration: underline; }
