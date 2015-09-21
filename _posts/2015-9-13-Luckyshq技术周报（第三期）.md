@@ -45,4 +45,4 @@ categories: others
 
 ### [Part 2 – Welcome Snackbar, Goodbye Toast!](http://www.technotalkative.com/part-2-welcome-snackbar-goodbye-toast/)
 
-##### 原生的Toast又丑又容易被滥用，在design support library里提供了一个Snackbar的新组建，能很好的替代难看的Toast。
+##### 原生的Toast又丑又容易被滥用，在design support library里提供了一个Snackbar的新组件，能很好的替代难看的Toast。
